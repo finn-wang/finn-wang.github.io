@@ -151,80 +151,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN,default">
-    <link itemprop="mainEntityOfPage" href="http://finn-wang.github.io/2024/04/02/hexo-test/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Finn">
-      <meta itemprop="description" content="江苏大学 | 车辆工程 | 汽车攻城狮">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Finn's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/04/02/hexo-test/" class="post-title-link" itemprop="url">hexo_test</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-04-02 16:51:04 / 修改时间：16:53:06" itemprop="dateCreated datePublished" datetime="2024-04-02T16:51:04+08:00">2024-04-02</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="2024-4-2搭建记录"><a href="#2024-4-2搭建记录" class="headerlink" title="2024.4.2搭建记录"></a>2024.4.2搭建记录</h3><p>Hexo是一款快速、简洁且高效的博客框架。<br>选择Hexo的理由是什么呢？</p>
-<ul>
-<li>Hexo是一款静态博客框架，生成的静态网页可以通过一些免费的静态网站托管平台（Github、Gitee）进行托管，而不必花重金租赁服务器。</li>
-<li>支持Markdown语法，hexo会渲染我们写好的Markdown文档，我们只需要考虑如何写文章即可。</li>
-<li>方便美化，方便功能扩充。</li>
-</ul>
-<p>环境准备</p>
-<ul>
-<li>node.js</li>
-<li>git</li>
-</ul>
-<h3 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h3><p>替换镜像源时报错：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">npm ERR! code EPERM</span><br><span class="line">npm ERR! syscall mkdir</span><br><span class="line">npm ERR! path D:\</span><br><span class="line">npm ERR! errno -4048</span><br><span class="line">npm ERR! Error: EPERM: operation not permitted, mkdir &#x27;D:\&#x27;</span><br><span class="line">npm ERR!  [Error: EPERM: operation not permitted, mkdir &#x27;D:\&#x27;] &#123;</span><br><span class="line">npm ERR!   errno: -4048,</span><br><span class="line">npm ERR!   code: &#x27;EPERM&#x27;,</span><br><span class="line">npm ERR!   syscall: &#x27;mkdir&#x27;,</span><br><span class="line">npm ERR!   path: &#x27;D:\\&#x27;</span><br><span class="line">npm ERR! &#125;</span><br><span class="line">npm ERR!</span><br><span class="line">npm ERR! The operation was rejected by your operating system.</span><br><span class="line">npm ERR! It&#x27;s possible that the file was already in use (by a text editor or antivirus),</span><br><span class="line">npm ERR! or that you lack permissions to access it.</span><br><span class="line">npm ERR!</span><br><span class="line">npm ERR! If you believe this might be a permissions issue, please double-check the</span><br><span class="line">npm ERR! permissions of the file and its containing directories, or try running</span><br><span class="line">npm ERR! the command again as root/Administrator.</span><br><span class="line"></span><br><span class="line">npm ERR! A complete log of this run can be found in: C:\Users\Noun\AppData\Local\npm-cache\_logs\2024-04-02T05_43_52_301Z-debug-0.log</span><br></pre></td></tr></table></figure>
-
-<p>尝试使用管理员权限打开cmd和powershell，都无法解决这个问题</p>
-<p>使用<code>hexo s</code>命令，可以正常运行，但是无法打开博客页面<br>我这个打不开的原因是因为Nomachine会自启动server服务，这个服务的端口号为4000</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN,default">
     <link itemprop="mainEntityOfPage" href="http://finn-wang.github.io/2024/04/02/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -359,7 +285,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
